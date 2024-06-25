@@ -6,7 +6,7 @@
 
 ---
 
-[![deploy](https://github.com/3ndetz/3ndetz.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/3ndetz/3ndetz.github.io/actions/workflows/deploy.yml)
+[![Status](https://github.com/3ndetz/3ndetz.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/3ndetz/3ndetz.github.io/actions/workflows/pages/pages-build-deployment)
 
 </div>
 
