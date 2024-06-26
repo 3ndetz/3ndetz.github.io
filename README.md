@@ -1,8 +1,8 @@
-# 3ndetz - who?
+# 3ndetz - personal p
 
 <div align="center">
 
-**Ну типа цв, типа цв ([Жмак](https://3ndetz.github.io/))**
+**Ну типа си-ви, типа си-ви ([Жмак](https://3ndetz.github.io/))**
 
 ---
 
