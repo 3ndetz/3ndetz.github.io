@@ -152,6 +152,10 @@
         progress.forEach((el) => {
           el.style.width = el.getAttribute('aria-valuenow') + '%'
         });
+        let progress2 = select('.progress .progress-bar2', true);
+        progress2.forEach((el) => {
+          el.style.width = el.getAttribute('aria-valuenow') + '%'
+        });
       }
     })
   }
@@ -163,8 +167,8 @@
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
+      delay: 10000,
+      disableOnInteraction: true
     },
     slidesPerView: 'auto',
     pagination: {

@@ -1,3 +1,24 @@
+@import "hint.css";
+li.customdatademo {
+  position: relative ;
+}
+li.customdatademo:hover::after {
+  /* content: attr(data-tooltip) ; */
+  content:url(https://private-user-images.githubusercontent.com/30196290/330075318-aa44993e-a7e8-4285-bba6-a690b0ac29a2.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk0MTY1ODksIm5iZiI6MTcxOTQxNjI4OSwicGF0aCI6Ii8zMDE5NjI5MC8zMzAwNzUzMTgtYWE0NDk5M2UtYTdlOC00Mjg1LWJiYTYtYTY5MGIwYWMyOWEyLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjI2VDE1MzgwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUxYmNiMzJkZDkwMzE2Zjc5NzdmZmRkNzIwYzRkNmI0ODVkOWNjOTgxYTNlYzVmZTgwMDU5OTZhZmY2YzcwMmMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.KuUiq6oIK1iQ9gzaNkQJUx1QDEGgirkKycTBnfVyUYU);
+  position: absolute ;
+  top: 1.1em ;
+  left: 1em ;
+  min-width: 200px ;
+  border: 1px #ffffff solid ;
+  border-radius: 0.7em;
+  padding: 8px ;
+  color: black ;
+  background-color: rgba(204, 255, 204, 0) ;
+  z-index: 1 ;
+}
+
+
+
 [data-tooltip] {
   /* display: inline-block; */
   position: relative;
@@ -5,6 +26,9 @@
   padding: 4px;
 }
 /* Tooltip styling */
+
+
+
 [data-tooltip]:before {
   
   content: attr(data-tooltip);
@@ -13,18 +37,31 @@
   background: #000;
   color: #fff;
   padding: 4px 8px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8;
-  min-width: 6cm;
-  max-width: 100vw;
+  min-width: 15em;
+  max-width: 100%;
   text-align: center;
-  border-radius: 3mm;
+  border-radius: 0.7em;
   transform-origin: top left;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) all  0.3s 0.1s;
+  border-color: var(--accent-col);
+  border-style: solid;
+  border-width: 0.1em;
   scale: 0.1;
   opacity: 0;
   z-index: 50;
 }
+
+[data-tooltip].img:after {
+  content:var(--uurl);
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translate(50vh, 50vw);
+
+}
+
 /* Dynamic horizontal centering */
 [data-tooltip-position="top"]:before,
 [data-tooltip-position="bottom"]:before {
@@ -104,7 +141,7 @@
 [data-tooltip-position="bottom"]:after {
   top: 100%;
   border-width: 0 2mm 2mm;
-  border-bottom-color: #007e06;
+  border-bottom-color: var(--accent-col);
 }
 [data-tooltip-position="left"]:after {
   right: 100%;
