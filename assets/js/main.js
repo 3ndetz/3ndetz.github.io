@@ -255,7 +255,7 @@
         }, true);
       }
     }
-    ['.portfolio-container','.skillmenu1','.skillmenu2','.skillslist'].forEach(function(el){
+    ['.portfolio-container','.skillmenu1','.skillmenuheader','.skillmenu2','.skillslist'].forEach(function(el){
       addContainerFunc(select(el));
     })
   });
