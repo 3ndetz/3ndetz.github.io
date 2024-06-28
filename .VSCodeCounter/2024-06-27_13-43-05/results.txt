@@ -1,0 +1,119 @@
+Date : 2024-06-27 13:43:05
+Directory : f:\Onix\Pictures\1Progs\source\3ndetz.github.io
+Total : 61 files,  91449 codes, 3308 comments, 6066 blanks, all 100823 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| CSS        |         33 |     54,526 |        371 |      3,921 |     58,818 |
+| JavaScript |         16 |     18,353 |      2,816 |      1,911 |     23,080 |
+| XML        |          3 |     10,223 |         20 |          1 |     10,244 |
+| Less       |          1 |      2,884 |         10 |          5 |      2,899 |
+| SCSS       |          1 |      2,080 |          5 |          6 |      2,091 |
+| JSON       |          2 |      2,053 |          0 |          0 |      2,053 |
+| HTML       |          3 |      1,304 |         70 |        206 |      1,580 |
+| PHP        |          1 |         18 |         16 |          8 |         42 |
+| Markdown   |          1 |          8 |          0 |          8 |         16 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                        | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                           |         61 |     91,449 |      3,308 |      6,066 |    100,823 |
+| . (Files)                                                                                                   |          4 |      1,312 |         70 |        214 |      1,596 |
+| assets                                                                                                      |         54 |     89,888 |      3,221 |      5,822 |     98,931 |
+| assets\css                                                                                                  |          5 |      1,897 |        213 |        387 |      2,497 |
+| assets\js                                                                                                   |          1 |        178 |         46 |         34 |        258 |
+| assets\vendor                                                                                               |         48 |     87,813 |      2,962 |      5,401 |     96,176 |
+| assets\vendor\bootstrap                                                                                     |         22 |     53,115 |      1,949 |      4,505 |     59,569 |
+| assets\vendor\bootstrap-awesome                                                                             |          1 |          1 |          5 |          0 |          6 |
+| assets\vendor\bootstrap-awesome\css                                                                         |          1 |          1 |          5 |          0 |          6 |
+| assets\vendor\bootstrap-icons                                                                               |          4 |      6,203 |         14 |         10 |      6,227 |
+| assets\vendor\bootstrap\css                                                                                 |         16 |     40,876 |        114 |      3,300 |     44,290 |
+| assets\vendor\bootstrap\js                                                                                  |          6 |     12,239 |      1,835 |      1,205 |     15,279 |
+| assets\vendor\boxicons                                                                                      |          5 |      7,413 |          0 |         90 |      7,503 |
+| assets\vendor\boxicons\css                                                                                  |          4 |      5,753 |          0 |         90 |      5,843 |
+| assets\vendor\boxicons\fonts                                                                                |          1 |      1,660 |          0 |          0 |      1,660 |
+| assets\vendor\glightbox                                                                                     |          4 |      3,895 |          8 |        131 |      4,034 |
+| assets\vendor\glightbox\css                                                                                 |          2 |        820 |          8 |        113 |        941 |
+| assets\vendor\glightbox\js                                                                                  |          2 |      3,075 |          0 |         18 |      3,093 |
+| assets\vendor\isotope-layout                                                                                |          2 |      2,200 |        839 |        537 |      3,576 |
+| assets\vendor\php-email-form                                                                                |          1 |         70 |          5 |         11 |         86 |
+| assets\vendor\purecounter                                                                                   |          1 |          1 |          8 |          0 |          9 |
+| assets\vendor\remixicon                                                                                     |          5 |     14,330 |         40 |         11 |     14,381 |
+| assets\vendor\swiper                                                                                        |          2 |          2 |         23 |          2 |         27 |
+| assets\vendor\waypoints                                                                                     |          1 |        583 |         71 |        104 |        758 |
+| css                                                                                                         |          1 |        225 |          1 |         21 |        247 |
+| forms                                                                                                       |          1 |         18 |         16 |          8 |         42 |
+| js                                                                                                          |          1 |          6 |          0 |          1 |          7 |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                    | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\README.md                                                   | Markdown   |          8 |          0 |          8 |         16 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\css\animcircles.css                                  | CSS        |        123 |          6 |         20 |        149 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\css\bglines.css                                      | CSS        |        231 |          0 |         29 |        260 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\css\hint.css                                         | CSS        |        398 |        139 |        132 |        669 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\css\spantooltips.css                                 | CSS        |        135 |          9 |         17 |        161 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\css\style.css                                        | CSS        |      1,010 |         59 |        189 |      1,258 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\js\main.js                                           | JavaScript |        178 |         46 |         34 |        258 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap-awesome\css\all.min.css             | CSS        |          1 |          5 |          0 |          6 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap-icons\bootstrap-icons.css           | CSS        |      2,070 |          5 |          4 |      2,079 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap-icons\bootstrap-icons.json          | JSON       |      2,052 |          0 |          0 |      2,052 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap-icons\bootstrap-icons.min.css       | CSS        |          1 |          4 |          0 |          5 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap-icons\bootstrap-icons.scss          | SCSS       |      2,080 |          5 |          6 |      2,091 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap-grid.css              | CSS        |      3,886 |          6 |        193 |      4,085 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap-grid.min.css          | CSS        |          1 |          5 |          0 |          6 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap-grid.rtl.css          | CSS        |      3,886 |          6 |        192 |      4,084 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap-grid.rtl.min.css      | CSS        |          1 |          5 |          0 |          6 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap-reboot.css            | CSS        |        518 |         14 |         65 |        597 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap-reboot.min.css        | CSS        |          1 |          5 |          0 |          6 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.css        | CSS        |        524 |          6 |         64 |        594 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css    | CSS        |          1 |          5 |          0 |          6 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap-utilities.css         | CSS        |      4,891 |          8 |        503 |      5,402 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap-utilities.min.css     | CSS        |          1 |          5 |          0 |          6 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap-utilities.rtl.css     | CSS        |      4,887 |          6 |        500 |      5,393 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css | CSS        |          1 |          5 |          0 |          6 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap.css                   | CSS        |     11,136 |         24 |        897 |     12,057 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap.min.css               | CSS        |          2 |          4 |          0 |          6 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap.rtl.css               | CSS        |     11,138 |          6 |        886 |     12,030 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\css\bootstrap.rtl.min.css           | CSS        |          2 |          4 |          0 |          6 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\js\bootstrap.bundle.js              | JavaScript |      5,064 |        655 |        596 |      6,315 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\js\bootstrap.bundle.min.js          | JavaScript |          1 |          6 |          0 |          7 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\js\bootstrap.esm.js                 | JavaScript |      3,568 |        578 |        302 |      4,448 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\js\bootstrap.esm.min.js             | JavaScript |          1 |          6 |          0 |          7 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\js\bootstrap.js                     | JavaScript |      3,604 |        584 |        307 |      4,495 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\bootstrap\js\bootstrap.min.js                 | JavaScript |          1 |          6 |          0 |          7 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\boxicons\css\animations.css                   | CSS        |        354 |          0 |         32 |        386 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\boxicons\css\boxicons.css                     | CSS        |      5,373 |          0 |         52 |      5,425 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\boxicons\css\boxicons.min.css                 | CSS        |          1 |          0 |          0 |          1 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\boxicons\css\transformations.css              | CSS        |         25 |          0 |          6 |         31 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\boxicons\fonts\boxicons.svg                   | XML        |      1,660 |          0 |          0 |      1,660 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\glightbox\css\glightbox.css                   | CSS        |        819 |          8 |        113 |        940 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\glightbox\css\glightbox.min.css               | CSS        |          1 |          0 |          0 |          1 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\glightbox\js\glightbox.js                     | JavaScript |      3,074 |          0 |         18 |      3,092 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\glightbox\js\glightbox.min.js                 | JavaScript |          1 |          0 |          0 |          1 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\isotope-layout\isotope.pkgd.js                | JavaScript |      2,198 |        830 |        536 |      3,564 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\isotope-layout\isotope.pkgd.min.js            | JavaScript |          2 |          9 |          1 |         12 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\php-email-form\validate.js                    | JavaScript |         70 |          5 |         11 |         86 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\purecounter\purecounter_vanilla.js            | JavaScript |          1 |          8 |          0 |          9 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\remixicon\remixicon.css                       | CSS        |      2,882 |         10 |          5 |      2,897 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\remixicon\remixicon.glyph.json                | JSON       |          1 |          0 |          0 |          1 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\remixicon\remixicon.less                      | Less       |      2,884 |         10 |          5 |      2,899 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\remixicon\remixicon.svg                       | XML        |      8,562 |         10 |          1 |      8,573 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\remixicon\remixicon.symbol.svg                | XML        |          1 |         10 |          0 |         11 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\swiper\swiper-bundle.min.css                  | CSS        |          1 |         11 |          1 |         13 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\swiper\swiper-bundle.min.js                   | JavaScript |          1 |         12 |          1 |         14 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\assets\vendor\waypoints\noframework.waypoints.js            | JavaScript |        583 |         71 |        104 |        758 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\css\styles.css                                              | CSS        |        225 |          1 |         21 |        247 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\forms\contact.php                                           | PHP        |         18 |         16 |          8 |         42 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\index.html                                                  | HTML       |        944 |         53 |        162 |      1,159 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\js\scripts.js                                               | JavaScript |          6 |          0 |          1 |          7 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\portfolio-details.html                                      | HTML       |         70 |         14 |         28 |        112 |
+| f:\Onix\Pictures\1Progs\source\3ndetz.github.io\test.html                                                   | HTML       |        290 |          3 |         16 |        309 |
+| Total                                                                                                       |            |     91,449 |      3,308 |      6,066 |    100,823 |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

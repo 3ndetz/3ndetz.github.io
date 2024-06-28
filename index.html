@@ -2,12 +2,14 @@
 <html lang="en">
 
 <head>
+  
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Personal Bootstrap Template</title>
+  <title>3ndetz</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+
 
     <!-- Font Awesome (VK ICON!) -->
   <link
@@ -16,10 +18,12 @@
   />
 
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicons OLD -->
+<!--   <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
+  <!-- favicon.svg MY EMOJI -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%221em%22 font-size=%2280%22>😎</text></svg>">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -55,7 +59,7 @@
 
 
 <body>
-
+  
 
   <!-- ======= ANIMATION CIRCLES ======= -->
   <div class="area">
@@ -156,10 +160,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link active" href="#header">3ndetz</a></li>
-          <li><a class="nav-link" href="#about">ТипаСкиллы</a></li>
+          <li><a class="nav-link" href="#about">Ремесло</a></li>
           <li><a class="nav-link" href="#resume">Путь</a></li>
 <!--           <li><a class="nav-link" href="#services">Принципы</a></li> -->
-<!--           <li><a class="nav-link" href="#portfolio">Заценить</a></li> -->
+          <li><a class="nav-link" href="#portfolio">Заценить</a></li>
           <li><a class="nav-link" href="#contact">Стукнуть</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -201,14 +205,29 @@
     <div class="about-me container">
 
       <div class="section-title">
-        <h2>ТипаСкиллы</h2>
-        <p>Ну типа скиллы, типа скиллы</p>
+        <h2>Ремесло</h2>
+        <p>Кто?</p>
       </div>
+
+
 
       <div class="row">
         <div class="col-lg-4" data-aos="fade-right">
           <img src="assets/img/me.jpg" class="img-fluid" alt="">
+          <p><br></p>
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">Всё</li>
+                <li data-filter=".filter-media">Медиа</li>
+                <li data-filter=".filter-dev">Dev</li>
+              </ul>
+            </div>
+          </div>
         </div>
+
+
+        
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Моушн-дизайнер <span>Team-Lead</span> &amp; ML Enthusiast <span>INSANE</span></h3>
           <div class="row">
@@ -223,72 +242,97 @@
                 <li><i class="bi bi-chevron-right"></i> <strong>Среда обитания:</strong> <span>Где-то в Сибири (+4 МСК)</span></li>
               </ul>
             </div>
-          
-          <div class="row">
-            <div class="col-lg-6">
+          </div>
+
+
+
+          <div class="row skillmenu1" >
+            <div class="col-lg-6 portfolio-item filter-media">
               <ul>
                 <li> О должности:</li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Ведущий</strong><span>моушен-дизайнер</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Опыт:</strong><span>более 2 лет</span></li>
+                <li data-tooltip="На последнем месте работы. А в целом будет больше 10 лет, с самого детства кручу-верчу видосы."
+                data-tooltip-position="bottom"
+                
+                ><i class="bi bi-chevron-right"></i> <strong>Опыт:</strong><span>2 года</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Команда:</strong><span>4 бойца + статичники</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Задачи:</strong><span>доработка ТЗ, распределение, исполнение и контроль, согласование, отчётность</span></li>
               </ul>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 portfolio-item filter-media">
               <ul>
                 <li> Скиллы в Media:</li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Моушн:</strong> <span>Шейповые анимации в After Effects</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Монтаж:</strong> <span>Нелинейный - Premiere, Vegas, линейный - OBS</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Статика:</strong> <span>Paint.net (Crazy master), Photoshop, Illustrator</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Продвижение:</strong> <span>YouTube (>20k), Статьи хабр</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Раскрутка:</strong> <span>YouTube 🚀</span></li>
               </ul>
             </div>
+            
 
           </div>
 
         </div>
       </div>
+
+      <div class="section-title">
+        <h4><br></h4>
+        <h2>Development</h2>
+      </div>
+      
+          <!--<a href="https://habr.com/ru/articles/812387/" target="_blank" rel="noopener noreferrer">
+          -->
+          <!--<li>Dev:&#160;<a href="#portfolio" onclick="window.location.reload(true);">project highlights</a></li>
+          -->
       <div class="row">
         <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <div class="row">
-            <div class="col-lg-4">
+          <div class="row skillmenu2">
+            <div class="col-lg-4 portfolio-item filter-dev">
               <ul>
-                <li> Dev: общее</li>
+                <li>Dev:&#160;<a href="#portfolio" onclick="window.location.reload(true);">project highlights</a></li>
+                <li class="hint--bottom hint--rounded" style='--uurl: url(
+                  "https://habrastorage.org/getpro/habr/upload_files/707/d82/b3b/707d82b3b05e5f91e8dab61070369d74.gif");'
+                  aria-img=""><i class="bi bi-chevron-right"></i> <strong>Python ML:</strong> Нейростримерша 🖱️
+                  <a href="https://habr.com/ru/articles/812387/" target="_blank" rel="noopener noreferrer">(Хабр🛠️)</a>
+
+                </span></li>
+                <li class="hint--bottom hint--rounded" style='--uurl: url(
+                  "https://github.com/3ndetz/autoclef/assets/30196290/7377ec79-1c3d-493b-9a1d-5d701f19d9c9");'
+                  aria-img=""><i class="bi bi-chevron-right"></i> <strong>Java:</strong> <span>Автоматический агент для побед в сетевой режим Minecraft 🖱️</span></li>
+                <li class="hint--bottom hint--rounded" style='--uurl: url(
+                  "https://github.com/3ndetz/Ordos/assets/30196290/fb3210ba-3dae-4303-ada1-ce6409a6981c");'
+                  aria-img=""><i class="bi bi-chevron-right"></i> <strong>Python:</strong> <span>Бот-модератор войс чатов в Discord 🖱️
+                    <a href="https://github.com/3ndetz/Ordos/" target="_blank" rel="noopener noreferrer">(GitHub🎬)</a>
+                    </span></li>
+                  <li><strong>И</strong> <span>многое другое!</span></li>
+                </ul> 
+            </div>
+
+            <div class="col-lg-4 portfolio-item filter-dev">
+              <ul>
+                <li>Dev: briefly</li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Публикации:</strong> <span>
+                  <a href="https://habr.com/ru/users/ozlik/publications/articles/" onclick="window.location.reload(true);">Habr</a>&#160;
+                  🚀</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Языки:</strong> <span>Python, Java, JS, C#, Lua</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>IDEшки</strong><span>Notepad++ (Insane hardcode), PyCharm, Idea, Colab</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Технологии:</strong> <span>SQLite, Docker, A bit web (html/css/ts), FTP, little regex</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Лучшая в мире IDE</strong><span>Notepad++ (for elite hardcoders)</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Технологии:</strong> <span>SQLite, Docker, Web (html/css), FTP (есть своя помойка), Regex</span></li>
               </ul>
             </div>
               
-            <div class="col-lg-4">
+            <div class="col-lg-4 portfolio-item filter-dev">
               <ul>
-                <li> Dev: specific</li>
-                <li><i class="bi bi-chevron-right"></i> <strong>PIP:</strong> <span>pytorch, multiprocessing/threading, asyncio, pandas, cv2, tensorflow, websocket, py4j, PySimpleGUI</span></li>
+                <li>Dev: specific</li>
+                <li><i class="bi bi-chevron-right"></i> <strong>PIP:</strong> <span>Torch, Multiprocessing/Threading, Asyncio, Pandas, CV2, Py4J, Keras, PySimpleGUI</span></li>
                 <li data-tooltip="Машинное обучение: обработка естесственного языка, синтез и распознавания речи, комп. зрение"
-                data-tooltip-position="bottom"><i class="bi bi-chevron-right"></i> <strong>ML:</strong> <span>NLP, TTS, STT, CV</span></li>
+                data-tooltip-position="bottom"><i class="bi bi-chevron-right"></i> <strong>ML:</strong> <span>NLP, TTS, STT, CV 🖱️</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>NLP:</strong> <span>Генеративки (LLM - GPT, T5), Классификаторы (BERT)</span></li>
               </ul>
             </div>
-            <div class="col-lg-4">
-              <style>
 
-            </style>
-              <ul>
-                <li> Dev: handmade</li>
-                <li class="hint--bottom hint--rounded" style='--uurl: url(
-                  "https://habrastorage.org/getpro/habr/upload_files/707/d82/b3b/707d82b3b05e5f91e8dab61070369d74.gif");'
-                  aria-img=""><i class="bi bi-chevron-right"></i> <strong>Python ML:</strong> <span>Нейронная сеть-стример: генерация ответа, модерация, RAG, подсистема памяти</span></li>
-                <li class="hint--bottom hint--rounded" style='--uurl: url(
-                  "https://github.com/3ndetz/autoclef/assets/30196290/7377ec79-1c3d-493b-9a1d-5d701f19d9c9");'
-                  aria-img=""><i class="bi bi-chevron-right"></i> <strong>Java:</strong> <span>Автоматический агент для побед в SkyWars Minecraft</span></li>
-                <li class="hint--bottom hint--rounded" style='--uurl: url(
-                  "https://github.com/3ndetz/Ordos/assets/30196290/fb3210ba-3dae-4303-ada1-ce6409a6981c");'
-                  aria-img=""><i class="bi bi-chevron-right"></i> <strong>Python:</strong> <span>Бот-модератор войса в Discord, квест-бот в Telegram и др.</span></li>
-              </ul> 
-            </div>
           </div>
           <p>
-            По разработке в основном петы, коммерческой как таковой не было, правда петы, я бы сказал, крупненькие, такие!
+            Разработка - ну чисто петы, в коммерцию не лез. И петы - не петы, а, скорее - петища!
           </p>
         </div>
       </div>
@@ -296,12 +340,15 @@
 
     <!-- ======= Counts ======= -->
     <div class="counts container">
-
+      <div class="section-title">
+        <h3>Какие-то цифры</h3>
+        <br><br>
+      </div>
       <div class="row">
 
         <div class="col-lg-3 col-md-6">
           <div class="count-box" data-tooltip-position="bottom"
-          data-tooltip="Отсылка на легендарную игру и отсутствие совести (как и математических навыков) у кое-кого! Да-да, привет, Valve, пилите дальше очередные важнейшие скины для ксеров">
+          data-tooltip="Отсылка на легендарную игру и отсутствие совести (как и математических навыков) у кое-кого! Да-да, привет, Valve! Давайте, запилите ещё одну тыщу скинов для ксеров, они ведь всем так нужны!">
             <!-- <i class="bi bi-emoji-smile"></i> -->
             <i class="fa-solid fa-lambda">
 <!--               <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="currentColor" d="M512 1024q-104 0-199-40.5t-163.5-109T40.5 711T0 512t40.5-199t109-163.5T313 40.5T512 0t199 40.5t163.5 109t109 163.5t40.5 199t-40.5 199t-109 163.5t-163.5 109t-199 40.5m0-896q-104 0-192.5 51.5t-140 140T128 512t51.5 192.5t140 140T512 896t192.5-51.5t140-140T896 512t-51.5-192.5t-140-140T512 128m96 640l-93-298l-163 298h-96l228-398l-16-50h-84v-64h160l143 400l81-16l32 64z"/></svg>
@@ -314,87 +361,65 @@
                 <polygon fill="currentColor" points="190.732,180.594 144.091,61.333 105.09,61.333 105.09,83.489 124.6,83.489 132.24,102.218 		70.679,205.83 102.414,205.83 145.244,137.782 173.152,211.178 219.793,197.426 211.768,174.122 	"/> </g> </svg>
             </i>
             <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
-            <p>умею считать дальше</p>
+            <p>умею считать до</p>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
+          <div class="count-box"
+          data-tooltip-position="bottom"
+          data-tooltip="Стата по некоторым:
+          Ordos-2100,
+          AutoStreamer-12315,
+          JavaBotMy-5309,
+          OldBotProj-8106,
+          FlayerJS-6350,
+          AutoTyper-11050,
+          KursBD-18020">
+          
             <i class="bi bi-journal-code"></i>
             <p>Написано больше, чем</p>
-            <span data-purecounter-start="0" data-purecounter-end="100000" data-purecounter-duration="1" class="purecounter"></span>
-            <p>строчек кода </p>
-            <p>(многие в notepad)</p>
+            <span data-purecounter-start="0" data-purecounter-end="36" data-purecounter-duration="1" class="purecounter"></span>
+            <p>тысяч строк кода </p>
+            <p>(по сумме файлов)</p>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
           <div class="count-box">
             <i class="bi bi-film"></i>
-            <p>Сварганил не меньше</p>
-            <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" class="purecounter"></span>
-            <p> видосов</p>
+            <p>Сварганено не меньше</p>
+            <span data-purecounter-start="0" data-purecounter-end="256" data-purecounter-duration="1" class="purecounter"></span>
+            <p>видеороликов</p>
           </div>
         </div>
 
       </div>
 
     </div><!-- End Counts -->
-    <div class="section-title">
-      <h3>Примерный рейтинг скиллов</h3>
-    </div>
+
 
     <!-- ======= Skills  ======= -->
     <div class="skills container">
 
-      
+      <div class="section-title">
+        <h3>Примерный рейтинг скиллов</h3>
+        <br><br>
+      </div>
 
 
       <div class="section-title">
         
-        <h2>Типа скиллы</h2>
+        <h2>Оценка умений</h2>
       </div>
 
       <div class="section-title">
         <h5>Интересно сейчас</h5>
       </div>
 
-      <div class="row skills-content">
+      <div class="row skills-content skillslist">
 
-        <div class="col-lg-6">
-          <div class="section-title">
-            <h3>Общее: коммуникация</h3>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Публичные выступления <i class="val">95%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-
-            </div>
-          </div>
-
-
-          <div class="progress">
-            <span class="skill">Деловая коммуникация <i class="val">95%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Бесцельная коммуникация <i class="val">40%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="skills container">
-      <div class="row skills-content">
-        <div class="col-lg-6">
+        <div class="col-lg-6 portfolio-item filter-dev">
           <div class="section-title">
             <h3>Development</h3>
           </div>
@@ -417,7 +442,7 @@
           </div>
 
           <div class="progress">
-            <span class="skill">Tensorflow <i class="val">60%</i></span>
+            <span class="skill">TF Keras <i class="val">60%</i></span>
             <div class="progress-bar-wrap">
               <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
@@ -484,13 +509,8 @@
             </div>
           </div>
         </div>
-      </div>
 
-    </div>
-
-    <div class="skills container">
-      <div class="row skills-content">
-        <div class="col-lg-6">
+        <div class="col-lg-6 portfolio-item filter-media">
           <div class="section-title">
             <h3>Медиасфера</h3>
           </div>
@@ -507,7 +527,7 @@
           <div class="progress">
             <span class="skill">YouTube <i class="val">95%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
               <div class="progress-bar2" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
@@ -571,13 +591,37 @@
           </div>
 
         </div>
-      </div>
-    </div>
-    
-    <div class="skills container">
-      <div class="row skills-content">
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 portfolio-item filter-dev filter-media filter-other">
+          <div class="section-title">
+            <h3>Коммуникация</h3>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Публичные выступления <i class="val">95%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+
+            </div>
+          </div>
+
+
+          <div class="progress">
+            <span class="skill">Деловая коммуникация <i class="val">95%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Бесцельная коммуникация <i class="val">40%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 portfolio-item filter-other filter-media filter-dev">
           <div class="section-title">
             <h3>Общее: другое</h3>
           </div>
@@ -592,7 +636,7 @@
 
 
           <div class="progress">
-            <span class="skill">Статьи (Habr) <i class="val">120%</i></span>
+            <span class="skill">Работа с текстом <i class="val">120%</i></span>
             <div class="progress-bar-wrap">
               <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               <div class="progress-bar2" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -610,12 +654,15 @@
     <!-- End Skills -->
 
 
-    <div class="section-title">
-      <h3>Не выживу без этого</h3>
-    </div>
+
 
     <!-- ======= Interests ======= -->
     <div class="interests container">
+
+      <div class="section-title">
+        <h3>Могу не выжить без этого</h3>
+        <br><br>
+      </div>
 
       <div class="section-title">
         <h2>ценю в жизни и людях</h2>
@@ -642,7 +689,7 @@
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
             <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-            <h3>Творчество без ограничений</h3>
+            <h3>Творческие подходы</h3>
           </div>
         </div>
 
@@ -679,13 +726,13 @@
     <div class="testimonials container">
 
       <div class="section-title">
-        <h2>Вместо 1000 отзывов</h2>
+        <h2>Ещё</h2>
       </div>
 
       <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper-wrapper">
 
-          <div class="swiper-slide">
+<!--           <div class="swiper-slide">
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -696,7 +743,9 @@
               <h3>Наталья Александровна Н.</h3>
               <h4>Преподаватель ЮИ СФУ</h4>
             </div>
-          </div><!-- End testimonial item -->
+          </div>
+           -->
+
 
           <div class="swiper-slide">
             <div class="testimonial-item">
@@ -739,39 +788,77 @@
           <div class="resume-item pb-0">
             <h4>Влад</h4>
             <p><em>Любитель устраивать тотальные разносы))</em></p>
-            <p>
+            <p></p>
             <ul>
               <li>Сибирь, +4 МСК</li>
               <li>TG @HyperVlad </li>
             </ul>
+            <p>Навигация по странице (хронология снизу вверх)</p>
+            <p></p>
+            <ul>
+              <li><a href="#eduroad">Образование</a></li>
+              <li><a href="#mediaroad">Путь в медиа</a></li></li>
+              <li><a href="#mlroad">Путь в ML</a></li></li>
+            </ul>
+            
+
             </p>
           </div>
 
-          <div class="section-title">
+          <div class="section-title" id="eduroad">
             <h2>Хронология</h2>
           </div>
 
           <h3 class="resume-title">Образование ↑</h3>
           <div class="resume-item">
-            <h4>Магистратура | Системы ИИ</h4>
+            <h4>Магистратура</h4>
             <h5>2024 - 2026</h5>
-            <p><em>Решается! Снова в СФУ? А может, в ИТМО?</em></p>
-            <p>Заряжен на максимум! ИИ - это то, о чём я мечтал всегда!</p>
-          </div>
+            <details>
+              <summary>
+                <em>Решается! Снова в СФУ? А может, в ИТМО?</em>
+              </summary>
+              <p>Интересующие направления:
+              <ul>
+                <li>Только связанное с ИИ!</li>
+                <li>Программы: инноватика, прикладная информатика, программная инженерия (+подобные им)</li>
+                <li>Области: NLP - LLM, Автоматизация, Speech</li>
+              </ul>
+              </p>
+              <p>Работать с ИИ - моя давняя мечта! С 2020 знал, что за этим будущее, ток тогда норм направлений не было</p>
+            </details>
+            </div>
           <div class="resume-item">
-            <h4>Бакалавриат | Прикладная информатика</h4>
+            <h4>Бакалавриат</h4>
             <h5>2020 - 2024</h5>
             <p><em>Сибирский федеральный университет</em></p>
-            <p>Окончил с отличием!<br>Специализация: ПИ в искусстве и интерактивных медиа.<br>Тема ВКР: бот-модератор голосовых чатов Discord. </p>
+            <p>Окончил с отличием!
+              <br>Специализация: прикладная информатика в искусстве и интерактивных медиа.
+            </p>
+            <p>Тема ВКР: бот-модератор голосовых чатов Discord. 
+              <br>(думаю, комиссия надолго запомнила этот день😏)
+            </p>
           </div>
           <div class="resume-item">
-            <h4>СРЕДНЕЕ ОБЩЕЕ</h4>
+            <h4 data-tooltip="11 классов" data-tooltip-position="bottom">СРЕДНЕЕ ОБЩЕЕ</h4>
             <h5>2009 - 2020</h5>
-            <p><em>Гимназия (не школа, видали?)</em></p>
-            <p>Всегда мечтал учиться в обычный, нормальной школе... Не отдавайте своих детей в гимназии, пожалуйста, если не хотите вырастить душнил, как я!</p>
+            <details>
+              <summary data-tooltip="Не школа, видали?" data-tooltip-position="bottom"><em>Гимназия</em></summary>
+              <p data-tooltip="Разумеется, зависит от случая к случаю,
+              в действительности гимназии мало чем отличаются от школ"
+              data-tooltip-position="bottom">
+              Не отдавайте своих детей в гимназии, если не хотите вырастить ещё 1 душнилу (меня)</p>
+
+              <p data-tooltip="Вольная борьба: 2009-2016; 1 в. категория; cпортивная школа олимпийского резерва «Спутник»; Акробатика: ~2010-2014"
+              data-tooltip-position="bottom">
+              Спортивные секции</p>
+              <p data-tooltip="Программирование, Робототехника (~2010 - проект лазерный детектор, 2 место по краю)"
+              data-tooltip-position="bottom">
+              Кружки</p>
+            </details>
           </div>
         </div>
-        <div class="col-lg-6">
+
+        <div class="col-lg-6" id="mediaroad">
           <h3 class="resume-title">Путь в медиасфере ↑</h3>
           <div class="resume-item">
             <h4>Из «подмастерья» в тим-лиды</h4>
@@ -779,10 +866,11 @@
             <p><em>Производственно-продюсерский центр </em></p>
             <p>
             <ul>
-              <li>Занял должность тим-лида в команде</li>
+              <li>Возглавил тиму</li>
+              <li>Взял больше задач</li>
               <li>Сварганил огромную кучу роликов (анимации)</li>
               <li>Изучил плотно After effects, ушёл с монтажа на фул моушен</li>
-              <li>Попробовал делать моушен-дизайн - понравилось! </li>
+              <li>Дали тестовую на моушен-дизайн - справился! </li>
               <li>Делал кучу видео в день (склейки)</li>
               <li>Прошёл собеседование в ППЦ на режиссера видеомонтажа</li>
             </ul>
@@ -803,8 +891,8 @@
           </div>
           <div class="resume-item">
             <h4>Первые результаты</h4>
-            <h5>2014 - 19</h5>
-            <p><em>Интернет, школа</em></p>
+            <h5>2014 - 2019</h5>
+            <p><em>YouTube, школа</em></p>
             <p>
             <ul>
               <li>Добился 20 тысяч подписчиков. Прикинул перспективы и ушёл с ютуба))</li>
@@ -830,6 +918,70 @@
             </p>
           </div>
         </div>
+
+        <div class="col-lg-6" id="mlroad">
+          <h3 class="resume-title">Путь в ML ↑</h3>
+          <div class="resume-item">
+            <h4>Играем «по-крупнее»</h4>
+            <h5>2022 - 2024</h5>
+            <p><em>Творчество и универ</em></p>
+            <p>
+            <ul>
+              <li>ВКР - бот-модератор голосовых чатов Discord</li>
+              <li>Статья на habr о новом пете</li>
+              <li>Выкатил альфу виртуальной стримерши</li>
+              <li>Связующие системы, TTS, STT, Docker</li>
+              <li>Внедрил T5 LLM. Первая статья на Habr</li>
+              <li>Автомат. агент Java для побед в SkyWars Minecraft</li>
+              <li>Курсач: Telegram квест-бот (игровой) </li>
+              <li>Прототип консольной диалоговой системы (openai api)</li>
+              <li>Идея виртуальной стримерши</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Вторые Петы</h4>
+            <h5>2020 - 2022</h5>
+            <p><em>Универ</em></p>
+            <p>
+            <ul>
+              <li>Скачал PyCharm и занялся плотнее Python</li>
+              <li>Курсач: прога учёта с SQL (+триггеры) на C#</li>
+              <li>Сделал автонаборщик на C# для обхода обязательного соло на клавиатуре))</li>
+              <li>В рамках универа изучил C#</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Первые петы</h4>
+            <h5>2014 - 2019</h5>
+            <p><em>Хардкод в notepad</em></p>
+            <p>
+            <ul>
+              <li>Люди иногда путали моих ботов с людьми))</li>
+              <li>Из-за криворукости (медленный код) начал изучать мультипроцессинг</li>
+              <li>Хардкодил фан-ботов для игры, расковыривал решения.</li>
+              <li>Скачал notepad++!</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Начало пути</h4>
+            <h5>2007 - 2014</h5>
+            <p><em>Школа, дом, gmod, MC</em></p>
+            <p>
+            <ul>
+              <li>Изучил lua и создавал свои пушки в gmod</li>
+              <li>В школе ходил на олимпиады по прогам (Pascal, acmp)</li>
+              <li>Свой первый сервер в Minecraft</li>
+              <li>Первые чипы на expression 2 в gmod.</li>
+              <li>Начал играть в Minecraft, Garry's mod.</li>
+              <li>6 лет: батя удалил Crysis, а я его сам скачал с диска))</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+
       </div>
 
     </div>
@@ -903,148 +1055,71 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Portfolio</h2>
-        <p>My Works</p>
+        <h2>Заценить</h2>
+        <p>Мои поделки</p>
       </div>
 
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
+            <li data-filter="*" class="filter-active">Всё</li>
+            <li data-filter=".filter-media">Медиа</li>
+            <li data-filter=".filter-dev">Dev</li>
+            <li data-filter=".filter-other">Ещё</li>
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-dev">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <!-- <img src="https://github.com/3ndetz/autoclef/assets/30196290/7377ec79-1c3d-493b-9a1d-5d701f19d9c9" class="img-fluid" alt=""> -->
+            <img 
+            src="assets/img/portfolio/portfolio-1.jpg"
+            class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
+              <h4>Виртуальная стримерша</h4>
+              <p>Диалоговая система, синтез речи, авто-игра по сети и многое другое</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Подробнее">
+                  <!-- <i class="bx bx-link"></i> -->
+                  <i class="bi bi-hand-index"></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-media">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/КонфликтыГиф.gif" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
+              <h4>Пример ролика</h4>
+              <p>Фрагмент рабочего ролика</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/КонфликтыГиф.gif"
+                data-gallery="portfolioGallery"
+                class="portfolio-lightbox"
+                title="Фрагмент ролика">
+                <i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-dev filter-media">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
+              <h4>Это не всё</h4>
+              <p>Показана малая часть всего.<br>Страница в стадии наполнения.</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
 
       </div>
 
@@ -1057,52 +1132,67 @@
 
       <div class="section-title">
         <h2>Стукнуть</h2>
-        <p>Стукнуть в телегу</p>
+        <p>Постучать (связаться)</p>
       </div>
 
       <div class="row mt-2">
 
         <div class="col-md-6 d-flex align-items-stretch">
           <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>Где?</h3>
-            <p>Где-то в Сибири... (+4 МСК)</p>
+            <i class="bx bx-share-alt"></i>
+            <h3>Отвечу быстрее в тг</h3>
+            <div class="social-links" id="social2"></div>
+            <p>Если кнопки не работают: TG @HyperVlad</p>
           </div>
         </div>
 
         <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+
           <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Отвечу быстрее в тг)</h3>
-            <div class="social-links" id="social2"></div>
+            <i class="bx bx-map"></i>
+            <h3>Часовой пояс</h3>
+            <p>+4 МСК</p>
           </div>
+
         </div>
 
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+<!--         <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-envelope"></i>
             <h3>Им ещё кто-то пользуется?)</h3>
             <p>nemoyemail@neemail.comp</p>
           </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+        </div> -->
+
+<!--         <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-phone-call"></i>
             <h3>Может ещё серию паспорта дать?)</h3>
             <p>8 800 555 35 35</p>
           </div>
-        </div>
+        </div> -->
       </div>
 
     </div>
   </section><!-- End Contact Section -->
 
   <div class="credits">
+
+    <div class="row footerfilter show" style="display: none;">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="portfolio-flters">
+          <li data-filter="*" class="filter-active">Всё</li>
+          <li data-filter=".filter-media">Медиа</li>
+          <li data-filter=".filter-dev">Dev</li>
+        </ul>
+      </div>
+    </div>
+
     <!-- All the links in the footer should remain intact. -->
     <!-- You can delete the links only if you purchased the pro version. -->
     <!-- Licensing information: https://bootstrapmade.com/license/ -->
     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    За шаблон спс ребзям из <a href="https://bootstrapmade.com/">Bootstrap</a>
+    3ndetz - визитка. Доработанный шаблон от <a href="https://bootstrapmade.com/">Bootstrap</a>
   </div>
 
   <script>

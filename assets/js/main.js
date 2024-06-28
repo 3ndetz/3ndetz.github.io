@@ -6,9 +6,20 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+
 (function() {
   "use strict";
 
+
+  function scrl(elementId) {
+    var element = document.getElementById(elementId);
+    element.scrollIntoView({
+       block: 'start',
+       behavior: 'smooth'
+    });
+  }
+  
   /**
    * Easy selector helper function
    */
@@ -193,28 +204,60 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
-      });
-
-      let portfolioFilters = select('#portfolio-flters li', true);
-
-      on('click', '#portfolio-flters li', function(e) {
-        e.preventDefault();
-        portfolioFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
-        });
-        this.classList.add('filter-active');
-
-        portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-      }, true);
+    
+    function setVisiblity(elemVar, visible){
+      if(elemVar){
+        //elemVar.classList.toggle('show')
+        
+        // simple method
+        
+        
+         if(visible){
+          elemVar.style.display = 'block';
+        }else{
+          elemVar.style.display = 'none';
+        } 
+        
+      }
     }
+    function addContainerFunc(contVar) {
+      if (contVar) {
+        let portfolioIsotope = new Isotope(contVar, {
+          itemSelector: '.portfolio-item',
+          layoutMode: 'fitRows'
+        });
+  
+  
+  
+        
+        let portfolioFilters = select('#portfolio-flters li', true);
+  
+        on('click', '#portfolio-flters li', function(e) {
+          e.preventDefault();
 
+          let data_val = this.getAttribute('data-filter');
+          if(data_val=="*"){
+            setVisiblity(select('.footerfilter'),false);
+          }else{
+            setVisiblity(select('.footerfilter'),true);
+          }
+          portfolioFilters.forEach(function(el) {
+            if(el.getAttribute('data-filter')==data_val) {
+              el.classList.add('filter-active');
+            } else{
+              el.classList.remove('filter-active');
+            }
+          });
+  
+          portfolioIsotope.arrange({
+            filter: data_val
+          });
+        }, true);
+      }
+    }
+    ['.portfolio-container','.skillmenu1','.skillmenu2','.skillslist'].forEach(function(el){
+      addContainerFunc(select(el));
+    })
   });
 
   /**
@@ -237,11 +280,11 @@
    * Portfolio details slider
    */
   new Swiper('.portfolio-details-slider', {
-    speed: 400,
+    speed: 1000,
     loop: true,
     autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
+      delay: 10000,
+      disableOnInteraction: true
     },
     pagination: {
       el: '.swiper-pagination',

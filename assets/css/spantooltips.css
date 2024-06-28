@@ -1,4 +1,8 @@
 @import "hint.css";
+.show {
+  display: block;
+  opacity: 1;
+}
 li.customdatademo {
   position: relative ;
 }

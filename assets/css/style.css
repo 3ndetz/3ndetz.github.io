@@ -108,6 +108,12 @@ h6 {
   margin: 0;
 }
 
+/* ADD IMG BORDER RADIUS!!! */
+
+img {
+  border-radius: 0.5em;
+}
+
 #header .social-links {
   margin-top: 40px;
   display: flex;
@@ -451,6 +457,10 @@ section .container {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+
+
+
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -841,7 +851,7 @@ section .container {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+#portfolio-flters {
   padding: 0;
   margin: 0 auto 15px auto;
   list-style: none;
@@ -850,7 +860,7 @@ section .container {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+#portfolio-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 16px 10px 16px;
@@ -865,16 +875,16 @@ section .container {
   border-radius: 4px;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+#portfolio-flters li:hover,
+#portfolio-flters li.filter-active {
   background: #18d26e;
 }
 
-.portfolio #portfolio-flters li:last-child {
+#portfolio-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.portfolio-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -882,7 +892,7 @@ section .container {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.portfolio .portfolio-wrap::before {
+.portfolio-wrap::before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -1004,6 +1014,7 @@ section .container {
   top: 0;
   bottom: 0;
   overflow-y: auto;
+
 }
 
 .portfolio-details .container {
@@ -1028,25 +1039,51 @@ section .container {
 }
 
 .portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
+
   font-size: 15px;
+}
+
+.nodotlist {
+  padding: 0;
+  list-style: none;
 }
 
 .portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
+.mcolumn {
+  padding: 1em;
+  column-gap: 5em;
+  columns: 3;
+}
+
 .portfolio-details .portfolio-info p {
   font-size: 15px;
+  line-height: 2em;
   padding: 15px 0 0 0;
 }
+
+.portfolio-details .portfolio-info p span {
+  font-size: 0.7em;
+  vertical-align: text-bottom;
+}
+
 
 @media (max-width: 992px) {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
 }
+
+.portfolio-details-slider{
+  text-align: center;
+}
+
+.portfolio-details .swiper-slide img {
+  width: 100%;
+}
+
 
 .portfolio-details .swiper-pagination {
   margin-top: 20px;
@@ -1224,6 +1261,19 @@ section .container {
 /*--------------------------------------------------------------
 # Credits
 --------------------------------------------------------------*/
+
+.footerfilter {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 15px;
+  font-size: 13px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999998;
+}
+
 .credits {
   position: fixed;
   right: 0;
@@ -1235,6 +1285,8 @@ section .container {
   color: #fff;
   z-index: 999999;
 }
+
+
 
 @media (max-width: 992px) {
   .credits {
