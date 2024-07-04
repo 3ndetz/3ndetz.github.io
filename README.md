@@ -1,4 +1,4 @@
-# 3ndetz - personal p
+# 3ndetz - personal
 
 <div align="center">
 
